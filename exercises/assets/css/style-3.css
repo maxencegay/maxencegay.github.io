@@ -14,10 +14,20 @@ input, button, textarea, select { font: inherit }
 body { background-color: purple }
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
-	
-/* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (min-width: 768px) {
+    body { 
+        padding-left: 20%;
+        padding-right: 20%;
+     }
+ }
+                 
+ /* Mobiles */
+ @media (max-width: 767px) { 
+     body { 
+         padding-left: 5%;
+         padding-right: 5%;
+     }
+ }
 
 h1 {
     color: white;
