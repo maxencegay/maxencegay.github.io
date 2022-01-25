@@ -201,6 +201,8 @@ footer h2 { color: var(--white-000) }
 footer h3 { color: var(--white-000) }
 footer p.privacy a:visited {color: white ; text-decoration-color: white ;}
 
+
+
 .container-menu.menu-desktop { background-color: var(--trans-000)}
 .container-menu.menu-mobile { background-color: var(--trans-000) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000)  }
@@ -212,7 +214,6 @@ footer p.privacy a:visited {color: white ; text-decoration-color: white ;}
 .container-menu a#btn-cta:visited { background-color: var(--red-500) }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited { border-color: var(--red-500) }
-
 
 
 
