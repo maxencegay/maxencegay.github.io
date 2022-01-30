@@ -134,87 +134,11 @@
 }
 
 /* Global font */
-body { font-family: 'Outfit', sans-serif }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: var(--white-000) }
-
-header.hero-block a.btn-secondary:focus,
-header.hero-block a.btn-secondary:hover,
-header.hero-block a.btn-secondary:active { background-color: var(--white-000)  ; }
-
-header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { background-color: var(--ontrend-700) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { background-color: transparent ; border-color: white; }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { background-color: 
-    transparent; border-color: white; }
+body { font-family: var(--global-font) }
 
 
+/* ========= THEME ONE ========== */
 
-    .theme-one { background-color: var(--ontrend-700) }
-    .theme-one .upper-label { color: var(--white-000) }
-    .theme-one h2 { color: var(--white-000) } 
-    .theme-one h3 { color: var(--white-000) } 
-    .theme-one .upper-label { color: var(--white-000) }
-    .theme-one p { color: var(--white-000) }
-    .theme-one li { color: var(--white-000) }
-   
-
-
-    .theme-three { background-color: var(--ontrend-800) }
-    .theme-three { background-color: var(--ontrend-800) }
-    .theme-three .col-2 h2 { color: var(--white-000) }
-    .theme-three .col-2 p { color: var(--white-000) }
-    .theme-three .col-2 li { color: var(--white-000) }
-    
-    .theme-two { background-color: var(--ontrend-700) }
-    .theme-two .upper-label { color: var(--white-000) }
-    .theme-two h2 { color: var(--white-000) } 
-    .theme-two h3 { color: var(--white-000) } 
-    .theme-two .upper-label { color: var(--white-000) }
-    .theme-two p { color: var(--white-000) }
-    .theme-two li { color: var(--white-000) }
-    .theme-two a:not(.btn):link { color: var(--white-000) }
-    .theme-two a:not(.btn):visited { color: var(--white-000) }
-    .theme-two a:not(.btn):link { background-color: var(--ontrend-700) }
-    .theme-two a:not(.btn):visited { background-color: var(--ontrend-700) }
-    
-
-    .theme-five { background-color: var(--ontrend-700) }
-    .theme-five .col-3 h3 { color: var(--white-000) }
-    .theme-five .col-1 h2 { color: var(--white-000) }
-    .theme-five .col-1 h3 { color: var(--white-000) }
-    .theme-five .col-3 h3 { color: var(--white-000) }
-    .theme-five .col-3 p { color: var(--white-000) }
-    .theme-five .col-3 li { color: var(--white-000) }
-    .theme-five .col-3 figure.icon { color: var(--white-000) }
-    .theme-five { background-color: var(--ontrend-700) }
-
-
-footer { background-color: var(--ontrend-800) }
-footer h2 { color: var(--white-000) }
-footer h3 { color: var(--white-000) }
-footer p.privacy a:visited {color: white ; text-decoration-color: white ;}
-
-
-
-.container-menu.menu-desktop { background-color: var(--trans-000)}
-.container-menu.menu-mobile { background-color: var(--trans-000) }
-.container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000)  }
-.container-menu a:link,
-.container-menu a:visited { color: var(--white-000) }
-.container-menu.menu-on-scroll ul li a:link,
-.container-menu.menu-on-scroll ul li a:visited { color: var(--white-000) }
-.container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { background-color: var(--red-500) }
-.container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { border-color: var(--red-500) }
-
-
-
+/* Background colour */
+.theme-one .col-1 h3 { color: var(--gray-700) }
 
