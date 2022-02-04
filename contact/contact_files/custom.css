@@ -142,3 +142,84 @@ body { font-family: var(--global-font) }
 /* Background colour */
 .theme-one .col-1 h3 { color: var(--gray-700) }
 
+
+/*Header CSS*/
+
+header.hero-block { background-color: var(--white-000) }
+header.hero-block h1 { color: var(--indigo-300) }
+header.hero-block h2 { color: var(--indigo-300) }
+header.hero-block a.btn-primary:link,
+header.hero-block a.btn-primary:visited { color: var(--white-000) }
+
+header.hero-block a.btn-primary:link,
+header.hero-block a.btn-primary:visited { background-color: var(--indigo-300) }
+
+header.hero-block a.btn-primary:link,
+header.hero-block a.btn-primary:visited { border-color: var(--indigo-300) }
+
+header.hero-block a.btn-primary:focus,
+header.hero-block a.btn-primary:hover,
+header.hero-block a.btn-primary:active { color: var(--indigo-300) }
+
+header.hero-block a.btn-primary:focus,
+header.hero-block a.btn-primary:hover,
+header.hero-block a.btn-primary:active { background-color: var(--white-000) }
+
+
+/*Contact form css*/
+
+
+
+#contact-form p a:focus { background-color: var(--indigo-300) } 
+#contact-form p a:hover { background-color: var(--indigo-300) }
+#contact-form p a:active { background-color: var(--indigo-300) }
+#contact-form #btn-submit { background-color: var(--indigo-400) }
+#contact-form #btn-submit { background-color: var(--white-000) }
+#contact-form p a:link { background-color: var(--indigo-300) }
+#contact-form p a:visited { background-color: var(--indigo-300) }
+#contact-form p a:link { color: var(--black-000) }
+#contact-form p a:visited { color: var(--black-000) }
+#contact-form p a:focus { color: var(--white-000) }
+#contact-form p a:hover { color: var(--white-000) }
+#contact-form p:active { color: var(--white-000) }
+#contact-form { background-color: var(--indigo-300) }
+#container-contact-form { background-color: var(--indigo-300) }
+#contact-form h2 { color: var(--black-000) }
+#contact-form p { color: var(--black-000) }
+#contact-form #btn-submit { color: var(--black-000) }
+#contact-form #btn-submit { border-color: var(--black-000) }
+#contact-form #btn-submit:focus { background-color: var(--black-000) }
+#contact-form #btn-submit:hover { background-color: var(--black-000) }
+#contact-form #btn-submit:focus { color: var(--white-000) }
+#contact-form #btn-submit:hover { color: var(--white-000) }
+
+/*Nav bar*/
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { border-color: var(--white-000) }
+.container-menu.menu-desktop { background-color: var(--indigo-300) }
+.container-menu.menu-mobile { background-color: var(--indigo-300) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--indigo-300) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--indigo-200) }
+.container-menu a:link,
+.container-menu a:visited { color: var(--white-000) }
+
+
+
+/*Footer*/
+
+
+footer { background-color: var(--indigo-300) }
+footer ul.footer-links li a:link, 
+footer ul.footer-links li a:visited { color: var(--gray-100); text-decoration-color: var(--gray-100) }
+
+footer p.privacy a:link, 
+footer p.privacy a:visited { color: var(--gray-100); text-decoration-color: var(--gray-100) }
+
+footer ul.footer-icons li a:link i, 
+footer ul.footer-icons li a:visited i { color: var(--white-000)}
+
+footer h2 { color: var(--gray-200) }
+footer h3 { color: var(--gray-200) }
